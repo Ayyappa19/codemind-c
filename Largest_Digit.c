@@ -2,16 +2,16 @@
 main()
 {
     
-    int num,r,ld=0;
+    int num,r,Id=0;
     scanf("%d",&num);
     
     while(num > 0)
 {
     r=num%10;
-    if(ld < r) {
-        ld = r;
+    if(Id < r) {
+        Id = r;
     }
     num=num/10;
 }
-printf("%d",ld);
+printf("%d",Id);
 }
